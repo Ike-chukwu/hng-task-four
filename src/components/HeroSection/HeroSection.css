@@ -93,6 +93,7 @@
 
     .hero-section .right-edge img {
         width: 100%;
-        height: unset;
+        height: 600px;
+        object-fit: cover;
     }
 }
