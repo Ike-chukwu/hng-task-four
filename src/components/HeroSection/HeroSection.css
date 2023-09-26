@@ -48,7 +48,6 @@
 
 .hero-section .right-edge {
     width: 50%;
-    position: relative;
 }
 
 
@@ -95,5 +94,6 @@
     .hero-section .right-edge img {
         width: 100%;
         height: fit-content;
+        object-fit: cover;
     }
 }
