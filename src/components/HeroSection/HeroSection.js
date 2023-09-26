@@ -2,38 +2,16 @@ import React, { useEffect, useRef, useLayoutEffect } from "react";
 import "./HeroSection.css";
 import pic from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
-import CSSRulePlugin from "gsap/CSSRulePlugin";
-import { TimelineLite, Power2 } from "gsap";
-import { gsap } from "gsap";
+
 
 const HeroSection = () => {
-  let container = useRef(null);
-  let image = useRef(null);
-  let leftText = useRef(null);
-  let imageReveal = CSSRulePlugin.getRule(".hero-section .right-edge:after");
 
-  const tl = new TimelineLite();
-  useEffect(() => {
-    tl.to(container, 0, { css: { visibility: "unset" } }).to(imageReveal, 1.4, {
-      width: "0%",
-      ease: Power2.easeInOut,
-    });
-  });
 
-  useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
-      tl.to(container, 0, { css: { visibility: "unset" } })
-        .to(imageReveal, 1, { width: "0%", ease: Power2.easeInOut })
-        .from(leftText, 1, { x: "-70", opacity: 0 });
-    });
-
-    return () => ctx.revert();
-  });
 
   return (
-    <div className="hero-section-parent" ref={(el) => (container = el)}>
+    <div className="hero-section-parent" >
       <section className="hero-section">
-        <div className="left-side" ref={(el) => (leftText = el)}>
+        <div className="left-side" >
           <p className="title">
             Hello,my name is Ik.I'm a{" "}
             <em className="colored">front-end developer</em>
@@ -59,7 +37,7 @@ const HeroSection = () => {
         </div>
 
         <div className="right-edge">
-          <img ref={(el) => (image = el)} src={pic} alt="" />
+          <img  src={pic} alt="" />
         </div>
       </section>
     </div>
