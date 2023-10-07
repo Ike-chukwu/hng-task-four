@@ -24,7 +24,19 @@
     font-size: 1.8rem;
     line-height: 1.6;
     padding-inline: 2rem;
+}
 
+
+.card .project-brief:nth-child(4) {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    padding-inline: 2rem;
+}
+
+.card .project-brief:nth-child(4) .project-stack {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 600;
 }
 
 
@@ -46,7 +58,7 @@
 }
 
 
-.card button:hover{
+.card button:hover {
     background: none;
     border: .2rem solid black;
     color: black;
@@ -71,5 +83,5 @@
         margin-top: 3rem;
     }
 
-    
-  }
+
+}

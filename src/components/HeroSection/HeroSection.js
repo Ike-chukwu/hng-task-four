@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
 
-
-
   return (
     <div className="hero-section-parent" >
       <section className="hero-section">
@@ -17,7 +15,7 @@ const HeroSection = () => {
             <em className="colored">front-end developer</em>
           </p>
           <p className="details">
-            I am a intermediate-level front-end developer and my primary focus
+            I am an intermediate-level front-end developer and my primary focus
             is on creating dynamic and interactive user interfaces.In addition,
             I have a keen eye for design and enjoy creating visually appealing
             and user friendly we experiences.I am committed to delivering clean,

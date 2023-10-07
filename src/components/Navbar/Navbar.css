@@ -72,7 +72,7 @@ nav .right-side {
         right: 0;
         background: flex;
         flex-direction: column;
-        background: black;
+        background-color: black;
         color: white;
         transition: all .4s linear;
         width: 100%;
@@ -81,10 +81,15 @@ nav .right-side {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
+    .right-side .link:hover{
+        font-weight: bold;
+    }
+
     .active {
         z-index: 100;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+
 
     .fa-times,
     .fa-bars {
