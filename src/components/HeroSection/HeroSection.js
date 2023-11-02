@@ -2,7 +2,6 @@ import React, { useEffect, useRef} from "react";
 import "./HeroSection.css";
 import pic from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
-import { gsap, Power2 } from "gsap";
 
 const HeroSection = () => {
   return (
