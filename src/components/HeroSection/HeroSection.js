@@ -1,11 +1,8 @@
-import React, { useEffect, useRef, useLayoutEffect } from "react";
+import React, { useEffect, useRef} from "react";
 import "./HeroSection.css";
 import pic from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 import { gsap, Power2 } from "gsap";
-import { CSSRulePlugin } from "gsap/CSSRulePlugin";
-
-gsap.registerPlugin(CSSRulePlugin);
 
 const HeroSection = () => {
   return (
