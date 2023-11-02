@@ -30,15 +30,8 @@ const ProjectContent = () => {
             imgSrc={kanban}
             link="https://kanban-app-one-phi.vercel.app/"
             title="kanban task management app"
-            brief="A task management app designed to help individuals or teams organize, track, and prioritize tasks and activities. It serves as a centralized platform to manage various tasks, projects, and assignments, making it easier to collaborate."
-            stack="React,Scss"
-          />
-          <ProjectCard
-            imgSrc={audio}
-            link="https://audiophile-fe.vercel.app/"
-            title="audiophile ecommerce website"
-            brief="Fully functional ecommerce website where a range of premium audio gadgets, from headphones to speakers is displayed for sale. It is integrated with Stripe for secure online transactions."
-            stack="React,Redux,Css"
+            brief="A task management app designed to help individuals or teams organize, track, and prioritize tasks. It serves as a centralized platform to manage various tasks and assignments, making it easier to collaborate."
+            stack="React,Redux,Scss"
           />
           <ProjectCard
             imgSrc={musica}
@@ -48,11 +41,18 @@ const ProjectContent = () => {
             stack="React,Scss"
           />
           <ProjectCard
+            imgSrc={audio}
+            link="https://audiophile-fe.vercel.app/"
+            title="audiophile ecommerce website"
+            brief="Fully functional ecommerce website where a range of premium audio gadgets, from headphones to speakers is displayed for sale. It is integrated with Stripe for secure online transactions."
+            stack="React,Css"
+          />
+          <ProjectCard
             imgSrc={arch}
             link="https://arch-website.vercel.app/"
             title="arch architectural website"
             brief="This elegant React-powered website for our architectural firm showcases our commitment to innovative design. The website captivates with a scrolling project gallery and highlights recent accolades."
-            stack="React,Scss"
+            stack="React,Css"
           />
           <ProjectCard
             imgSrc={country}

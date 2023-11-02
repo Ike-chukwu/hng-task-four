@@ -8,7 +8,9 @@ const ProjectCard = (props) => {
       <img src={props.imgSrc} className="project-image" alt="" />
       <h2 className="project-title">{props.title}</h2>
       <p className="project-brief">{props.brief}</p>
-      <p className="project-brief">Stack: <span className="project-stack">{props.stack}</span></p>
+      <p className="project-brief">
+        <span className="project-stack">Stack:</span> {props.stack}
+      </p>
       <Link to={props.link} style={{ textDecoration: "none", color: "unset" }}>
         <button className="btn">visit site</button>
       </Link>
