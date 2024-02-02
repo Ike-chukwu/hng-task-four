@@ -5,6 +5,7 @@ import arch from "../../images/arch.jpg";
 import audio from "../../images/audio.jpg";
 import country from "../../images/country.jpg";
 import kanban from "../../images/kanban.jpg";
+import dine from "../../images/dine.jpg";
 import musica from "../../images/musica.jpg";
 import { Link } from "react-router-dom";
 
@@ -26,6 +27,13 @@ const ProjectContent = () => {
           feedback.
         </p>
         <div className="projects">
+          <ProjectCard
+            imgSrc={dine}
+            link="https://dine-sigma.vercel.app/"
+            title="Dine Restaurant"
+            brief="A website that users can search, purchase, and add their favorite meals to a watch list for easy access.Users can also book reservation and get a confirmation email, offering a seamless online dining experience."
+            stack="React,Scss,Gsap"
+          />
           <ProjectCard
             imgSrc={kanban}
             link="https://kanban-app-one-phi.vercel.app/"
@@ -64,7 +72,7 @@ const ProjectContent = () => {
         </div>
       </div>
       <p className="footer">
-        Want to see more works?{" "}
+        Want to see more works?
         <Link>
           <em className="link">Click here</em>
         </Link>

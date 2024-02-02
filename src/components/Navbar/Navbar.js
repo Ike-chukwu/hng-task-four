@@ -34,11 +34,11 @@ const Navbar = () => {
           <span className="link">Github</span>
         </Link>
         <Link
-          to="https://docs.google.com/document/d/1F0Ybhr80A5r3w98qknt7rZF79IBHpzmC/edit?usp=sharing&ouid=112989704845539397418&rtpof=true&sd=true"
+          to="https://drive.google.com/file/d/13jFWwNwuw4hNQUw1x1D5p2gwaKEC3pNQ/view?usp=sharing"
           style={{ textDecoration: "none", color: "unset" }}
           onClick={() => setNavbarActive(false)}
         >
-          <span className="link">CV</span>
+          <span className="link">Resume</span>
         </Link>
       </div>
       <i
